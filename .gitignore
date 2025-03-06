@@ -1,0 +1,15 @@
+# Ignore Unity-generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+Packages/
+
+# Visual Studio files
+.vs/
+*.csproj
+*.sln
+*.userprefs

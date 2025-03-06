@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 895946eb67c07064b9096c08b244e8c4, type: 3}
+  m_Name: LevelUpData
+  m_EditorClassIdentifier: 
+  levelUpChoices:
+  - level: 1
+    choices:
+    - icon: {fileID: 21300000, guid: 9b7d3e68800599b4f97d41891e06808b, type: 3}
+      description: "S\u1EE9c m\u1EA1nh + 10"
+      statType: 0
+      amount: 10
+    - icon: {fileID: 21300000, guid: 20d6bb3c3eff66e4ca8f0bf10fbf2d08, type: 3}
+      description: "T\u1ED1c \u0111\u1ED9 di chuy\u1EC3n + 10"
+      statType: 0
+      amount: 10
+  - level: 2
+    choices:
+    - icon: {fileID: 21300000, guid: 09de924f3ab25734599644680f7bce1c, type: 3}
+      description: "S\xFAng + 1"
+      statType: 0
+      amount: 1
+  - level: 3
+    choices:
+    - icon: {fileID: 21300000, guid: 3032f754f6d154f469f10a83a6b2e9cb, type: 3}
+      description: "M\xE1u + 10"
+      statType: 0
+      amount: 0
